@@ -1,4 +1,4 @@
-# Native File Explorer
+# React File System Access API Explorer
 
 - This project experiments with the new File System Access API
 - It is a purely React, SPA file explorer
