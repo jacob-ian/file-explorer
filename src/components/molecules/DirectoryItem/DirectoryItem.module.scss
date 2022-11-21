@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  .icon {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: none;
+    cursor: pointer;
+    &.selected {
+      background-color: rgba(5, 147, 255, 0.1);
+    }
+  }
+  .name {
+    width: 80px;
+    font-size: 0.8rem;
+    color: #444;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  &:hover {
+    .icon {
+      background-color: rgba(5, 147, 255, 0.3);
+    }
+  }
+}
