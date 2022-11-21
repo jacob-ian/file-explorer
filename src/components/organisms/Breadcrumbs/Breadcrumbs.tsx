@@ -36,6 +36,7 @@ export default function Breadcrumbs() {
             <Button
               key={directory.name}
               variant="text"
+              sx={{ textTransform: "none" }}
               onClick={() => handleBreadcrumbClick(i)}
             >
               {directory.name}
